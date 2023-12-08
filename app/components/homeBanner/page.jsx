@@ -29,6 +29,7 @@ function page() {
  
   
  <div className=' bg-primary-green  '>
+  <Container>
     <div className='  nav-container flex justify-evenly align-center'>
     <h3 className='my-7 text-lg font-bold text-white'>FEEL FREE TO CONTACT US ANYTIME FOR YOUR ALL QUERIES AND EXPERT ADVICE!</h3>
     <div className='whatsapp-button   '>
@@ -38,6 +39,8 @@ function page() {
         </button>
     </div>
     </div>
+
+  </Container>
  </div>
 
     </div>
