@@ -5,7 +5,6 @@ function page() {
   return (
     <div>
      <ContactForm/>
-
     </div>
   )
 }

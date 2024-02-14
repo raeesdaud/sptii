@@ -1,5 +1,3 @@
-// import Image from 'next/image';
-// import Link from 'next/link';
 // import React from 'react';
 "use client";
 import { useEffect, useState } from "react";
@@ -20,7 +18,7 @@ const Page = ({ data }) => {
    
 
   return (
-    <div className="flex">
+    <div className="flex gap-6 flex-wrap mx-auto ">
       {courses &&
         courses.map((course, id) => (
           <div key={id} className="shadow-xl my-4">

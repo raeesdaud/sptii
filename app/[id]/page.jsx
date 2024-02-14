@@ -21,7 +21,7 @@ async function page({ params: id }) {
 
   console.log("hello>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.", getSingleCardPost);
 
-  CardBackgroundImage.data.attributes.url;
+  // CardBackgroundImage.data.attributes.url;
   return (
     <Container>
       <div>
