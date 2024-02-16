@@ -34,7 +34,7 @@ function page() {
                 src="/imgs/SPTI.jpg"
                 width={100}
                 height={100}
-                alt="Picture of the author"
+                alt="Picture"
               />
             </div>
             <div className="social-links lg:text-[14px] lx:text-[16px] hidden lg:flex place-content-end">
@@ -311,7 +311,7 @@ flex-col bg-white drop-shadow-lg"
             </div> */}
               <div className="bg-white px-1 lg:px-3 py-1  font-semibold text-primary-green ">
                 <button>
-                  <Link href="#">CONSULTANCY</Link>
+                  <Link href="/consultancy">CONSULTANCY</Link>
                 </button>
               </div>
 
