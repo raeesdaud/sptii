@@ -30,16 +30,16 @@ function page() {
           <div className="upper-div hidden md:flex place-content-between">
             <div>
               <Image
-                className="h-16 w-16 rounded-[50%]"
+                className="h-20 w-20 rounded-[50%]"
                 src="/imgs/SPTI.jpg"
                 width={100}
                 height={100}
                 alt="Picture"
               />
             </div>
-            <div className="social-links lg:text-[14px] lx:text-[16px] hidden lg:flex place-content-end">
-              <div className="whatsapp px-4 flex gap-4 space-y-4">
-                <div className="logo my-3">
+            <div className="social-links py-4 lg:text-[14px] lx:text-[16px] hidden lg:flex place-content-end">
+              <div className="whatsapp px-4 flex gap-6 space-y-4">
+                <div className="logo mt-6">
                   <FaPhone size={24} className="text-green-500" />
                 </div>
                 <div>
@@ -47,8 +47,8 @@ function page() {
                   <p>+92-3001565610</p>
                 </div>
               </div>
-              <div className="gmail border-l-2 px-4 flex gap-4 space-y-4">
-                <div className="logo my-3">
+              <div className="gmail border-l-2 px-4 flex gap-6 space-y-4">
+                <div className="logo mt-6">
                   <AiOutlineMail size={24} className="text-blue-500" />
                 </div>
                 <div>
@@ -56,8 +56,8 @@ function page() {
                   <p>info@sptii.com</p>
                 </div>
               </div>
-              <div className="location border-l-2 px-4 flex gap-4 space-y-4">
-                <div className="logo my-3">
+              <div className="location border-l-2 px-4 flex gap-6 space-y-4">
+                <div className="logo mt-6">
                   <FaLocationDot size={24} className="text-red-500" />
                 </div>
                 <div>

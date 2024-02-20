@@ -1,34 +1,37 @@
 import Container from "../components/Container";
 import Card from "../components/card/page";
-import Course from "../courses/coursesCard/page";
+import Course from "../courses/Course/page";
 
-const getProps = async () => {
-  try {
-    const response = await fetch(
-      "http://127.0.0.1:1337/api/cards?populate=CardBackgroundImage,units,CourseOutline",
-      {
-        cache: "no-cache",
-      }
-    );
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error(`Fetching error: ${error}`);
-    return { data: [] }; // Return an empty array in case of an error
-  }
-};
+// getProps Commented
+
+// const getProps = async () => {
+//   try {
+//     const response = await fetch(
+//       "http://127.0.0.1:1337/api/cards?populate=CardBackgroundImage,units,CourseOutline",
+//       {
+//         cache: "no-cache",
+//       }
+//     );
+//     const data = await response.json();
+//     return data;
+//   } catch (error) {
+//     console.error(`Fetching error: ${error}`);
+//     return { data: [] }; // Return an empty array in case of an error
+//   }
+// };
 
 const Page = async () => {
-  const Data = getProps();
+  // const Data = getProps();
   return (
     <Container>
       <div className="p-4">
         <h1 className="py-6 text-2xl font-bold my-4 text-primary-green">
           INTERNATIONAL COURSES
         </h1>
+        {/* 
         <div>
           <Card data={Data} />
-        </div>
+        </div> */}
 
         {/* Courses */}
         <div>
